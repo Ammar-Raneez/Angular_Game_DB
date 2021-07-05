@@ -1,5 +1,6 @@
 <div class="search-container">
-    <form class="search-form">
+    <!-- acceping form as an argument in the form of ngForm -->
+    <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
         <span class="logo" routerLink="/">NgVGDB</span>
 
         <input

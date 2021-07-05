@@ -1,0 +1,1 @@
+# interceptors are used to "intercept" http requests, such that it can modify the requests, by adding personalized headers, errors and params

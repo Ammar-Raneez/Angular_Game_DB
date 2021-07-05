@@ -3,7 +3,7 @@ import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 
 @Injectable()
-export class HttpErrorsInterceptor implements HttpInterceptor {
+export class HttpHeadersInterceptor implements HttpInterceptor {
     constructor() { }
 
     intercept(req : HttpRequest<any>, next : HttpHandler) : Observable<HttpEvent<any>> {
@@ -13,7 +13,7 @@ export class HttpErrorsInterceptor implements HttpInterceptor {
                 'x-rapidapi-host': 'rawg-video-games-database.p.rapidapi.com'
             },
             setParams: {
-                key: 'e40e743af2c94b0c916a8aa618fb4473',
+                key: 'c8bd0bd37dbd41e8bcb25dcbe9c75e9a',
             }
         })
 

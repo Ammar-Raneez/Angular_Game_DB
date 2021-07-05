@@ -1,3 +1,10 @@
+import { Genre } from "./genre";
+import { ParentPlatform } from "./parent_platform";
+import { Publisher } from "./publisher";
+import { Rating } from "./rating";
+import { Screenshot } from "./screenshot";
+import { Trailer } from "./trailer";
+
 export interface Game {
     background_image: string;
     name: string;

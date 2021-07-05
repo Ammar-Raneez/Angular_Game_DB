@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
   searchGames(sort : string, search? : string) : void {
     this.httpService.getGameList(sort, search)
       .subscribe(( gameList : APIResponse<Game> ) => {
-        console.log(gameList);
+        this.games = gameList.results;
       })
   }
 }

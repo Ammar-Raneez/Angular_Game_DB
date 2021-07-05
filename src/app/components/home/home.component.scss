@@ -1,7 +1,7 @@
 .filters {
-    max-width: 75rem;
+    max-width: 96.7%;
     margin: 1.25rem auto;
-    padding-left: 1.24rem;
+    padding-left: 0rem;
 
     ::ng-deep {
         .mat-form-field-infix {
@@ -36,11 +36,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 75rem;
+    max-width: 100%;
     margin: 1.25rem auto;
 
     .game {
-        width: 17rem;
+        width: 19rem;
         margin: 0.6rem;
         height: 20rem;
         overflow: hidden;

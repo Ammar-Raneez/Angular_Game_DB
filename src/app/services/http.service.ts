@@ -2,7 +2,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { forkJoin, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { environment as env } from 'src/environments/environment.prod';
+import { environment as env } from 'src/environment/environment.prod';
 import { APIResponse } from '../models/api_response';
 import { Game } from '../models/game';
 

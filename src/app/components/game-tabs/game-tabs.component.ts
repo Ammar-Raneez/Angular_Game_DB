@@ -7,6 +7,7 @@ import { Game } from 'src/app/models/game';
   styleUrls: ['./game-tabs.component.scss']
 })
 export class GameTabsComponent implements OnInit {
+  // extract the game prop passed from details component
   @Input() game!: Game;
   
   constructor() { }

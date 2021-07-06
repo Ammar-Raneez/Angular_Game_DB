@@ -49,6 +49,7 @@
 
     &-screenshot {
         margin-top: 0.8rem;
+        // wanna fit two in a row, so the width will be 50% - margin
         width: calc(50% - 0.6rem);
     
         &:nth-child(even) {
